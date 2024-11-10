@@ -403,8 +403,8 @@ fieldset {
   margin-top: 1.5rem;
   width: 500px;
   border-radius: 1.5rem;
-  border: 0.5px solid var(--Primary-400, #005ae2);
-  background: rgba(254, 254, 254, 0.1);
+  border: 1px solid var(--Primary-400, #005ae2);
+  background: rgba(254, 254, 254, 0.8);
   backdrop-filter: blur(106px);
   display: flex;
   padding: 2rem 1rem;
@@ -1514,4 +1514,7 @@ line-height: 1.25rem; /* 142.857% */
     width: 100%;
     padding: 1rem 16px;
   }
+}
+body{
+  font-size: "Poppins";
 }
